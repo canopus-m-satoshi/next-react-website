@@ -1,12 +1,15 @@
+import Container from 'components/container'
 import Logo from './logo'
 import styles from 'styles/footer.module.css'
 
 const Footer = () => {
   return (
     <footer className={styles.wrapper}>
-      <div className={styles.felxContainer}>
-        <Logo />
-      </div>
+      <Container>
+        <div className={styles.felxContainer}>
+          <Logo />
+        </div>
+      </Container>
     </footer>
   )
 }
