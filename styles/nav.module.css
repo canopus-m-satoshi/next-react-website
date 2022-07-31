@@ -4,6 +4,9 @@
 }
 
 @media (hover: hover) {
+  .list a {
+    transition-duration: 0.3s;
+  }
   .list a:hover {
     color: var(--accent);
   }
