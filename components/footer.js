@@ -1,5 +1,6 @@
-import Container from 'components/container'
-import Logo from './logo'
+import Container from '@/components/container'
+import Logo from '@/components/logo'
+import Social from '@/components/Social'
 import styles from 'styles/footer.module.css'
 
 const Footer = () => {
@@ -8,6 +9,7 @@ const Footer = () => {
       <Container>
         <div className={styles.felxContainer}>
           <Logo />
+          <Social />
         </div>
       </Container>
     </footer>
