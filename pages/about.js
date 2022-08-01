@@ -14,7 +14,13 @@ import eyecatch from 'images/about.jpg'
 export default function About() {
   return (
     <Container>
-      <Meta pageTitle="アバウト" pageDesc="About Development Archives" />
+      <Meta
+        pageTitle="アバウト"
+        pageDesc="About Development Archives"
+        pageImg={eyecatch.src}
+        pageImgW={eyecatch.width}
+        pageImgH={eyecatch.height}
+      />
       <Hero title="About" subtitle="About Development Archives" />
 
       <figure>
