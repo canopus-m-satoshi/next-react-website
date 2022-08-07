@@ -42,6 +42,7 @@ const Post = ({
         <PostHeader title={title} subtitle="Blog Article" publish={publish} />
         <figure>
           <Image
+            // Imageコンポーネントにkey属性を持たせ、Imageコンポーネントは記事ごとに異なるコンポーネントであると明示し、記事内のページネーションから遷移時にblurや画像の切り替わり遅延を防ぐ
             key={eyecatch.url}
             src={eyecatch.url}
             alt=" "
