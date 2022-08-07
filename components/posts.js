@@ -6,7 +6,7 @@ const Posts = ({ posts }) => {
   return (
     <div className={styles.gridContainer}>
       {posts.map(({ title, slug, eyecatch }) => (
-        <article className={styles.post} key={{ slug }}>
+        <article className={styles.post} key={slug}>
           <Link href={`/blog/${slug}`}>
             <a>
               <figure>
